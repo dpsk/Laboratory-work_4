@@ -1,0 +1,21 @@
+form {
+	position: absolute;
+	top: calc(40% - 233px/2);
+	left: calc(50% - 265px/2);
+}
+
+table {
+	display: table;
+	table-layout: auto;
+}
+
+tr {
+	display: table-row;
+}
+
+th, td {
+	display: table-cell;
+	vertical-align: center;
+	padding: 5px;
+	text-align: center;
+}
